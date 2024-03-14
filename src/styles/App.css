@@ -1,1 +1,29 @@
-
+.todo_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.todo_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        gap: 10px;
+        li{
+            display: flex;
+            width: 65%;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
